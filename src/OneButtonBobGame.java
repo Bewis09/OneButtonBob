@@ -67,8 +67,8 @@ public class OneButtonBobGame extends Game {
 
     @Override
     public void tick() {
-        player.setVelocityX(2);
-        player.setGravity(0.2f);
+        player.setVelocityX(3);
+        player.setGravity(0.3f);
         player.setVisible(true);
         getCurrentLevel().tick(this);
 

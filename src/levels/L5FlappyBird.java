@@ -38,7 +38,7 @@ public class L5FlappyBird extends Level {
         fly.setCenterY(game.player.getCenterY());
 
         game.player.setVisible(false);
-        game.player.setGravity(0.1f);
+        game.player.setGravity(0.15f);
 
         if (fly.containsRect(pipe_top.getBounds()) || fly.containsRect(pipe_bottom.getBounds()) ||
                 fly.containsRect(pipe_top2.getBounds()) || fly.containsRect(pipe_bottom2.getBounds()) ||

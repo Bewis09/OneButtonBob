@@ -38,7 +38,7 @@ public class L11TopDown extends Level {
 
     @Override
     public void tick(OneButtonBobGame game) {
-        game.player.setGravity(reversed ? -0.2f : 0.2f);
+        game.player.setGravity(reversed ? -0.3f : 0.3f);
     }
 
     @Override

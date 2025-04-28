@@ -9,8 +9,8 @@ import java.awt.geom.Rectangle2D;
 
 public class L3JumpHigh extends Level {
     public static Rectangle ground = new Rectangle(0, 448, 256, 64);
-    public static Rectangle platform1 = new Rectangle(384, 384, 128, 16);
-    public static Rectangle platform2 = new Rectangle(640, 320, 128, 16);
+    public static Rectangle platform1 = new Rectangle(384, 400, 128, 16);
+    public static Rectangle platform2 = new Rectangle(640, 352, 128, 16);
     public static Text jumpText = new Text(384, 200, "...again!", 40, true, false);
     public static Rectangle lava = new Rectangle(0, 480, 768, 32);
 
